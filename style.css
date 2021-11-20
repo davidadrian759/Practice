@@ -1,0 +1,35 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fieldset {
+    background-color: aliceblue;
+    position: absolute;
+   padding: 10px;
+   margin: 10px;
+   width: 50%;
+   left: 50px;
+   top: 20px;
+}
+
+#legend{
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+button{
+    background-color: skyblue;
+    width: 50px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
